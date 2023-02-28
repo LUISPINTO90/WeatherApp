@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" href="/assets/logo.svg" />
+    <!-- Google Font Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="Header">
+      <img src="./assets/logo.svg" alt="Logo" class="Logo" />
+    </section>
+    <section class="Search">
+      <h1>Search for a city</h1>
+      <form>
+        <input
+          type="text"
+          class="SearchInput"
+          placeholder="City name"
+          id="SearchInput"
+        />
+        <button id="BtnSearch">Search</button>
+      </form>
+      <dialog id="dialog"></dialog>
+    </section>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

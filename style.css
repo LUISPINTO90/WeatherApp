@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding: 1rem 1rem;
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  max-width: 100%;
+  word-wrap: break-word;
+  color: #3d3d3d;
+  padding: 1rem auto;
+}
+
+.cityH1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.temperature {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(185, 179, 179, 0.055);
+  border-radius: 16px;
+  padding: 15px 25px;
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #3d3d3d;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.212);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.065);
+}
+
+.weather {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2rem;
+  max-width: 100%;
+  word-wrap: break-word;
+  color: #3d3d3d;
+  padding: 1rem auto;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.Logo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.Search {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.SearchInput {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+  margin: 10px auto;
+
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.SearchInput::placeholder {
+  color: #808080;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #0466b2;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+button:hover {
+  background-color: #03406f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 260px) {
+  .SearchInput {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+  }
+}
